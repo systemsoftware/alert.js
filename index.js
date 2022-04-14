@@ -61,3 +61,4 @@ class Alert {
         document.getElementById("__ALERT_CONTAINER__").removeChild(document.getElementById(this.id))
         document.getElementById("__ALERT_CONTAINER__").removeChild(document.getElementById(`${this.id}-BR`))
     }
+}
